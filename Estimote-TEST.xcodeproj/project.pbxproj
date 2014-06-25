@@ -21,6 +21,12 @@
 		7378F36C19518AF800F76B91 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7378F34E19518AF700F76B91 /* UIKit.framework */; };
 		7378F37419518AF800F76B91 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7378F37219518AF800F76B91 /* InfoPlist.strings */; };
 		7378F37619518AF800F76B91 /* Estimote_TESTTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7378F37519518AF800F76B91 /* Estimote_TESTTests.m */; };
+		73AF193719594CD9002D6A8D /* chrono.png in Resources */ = {isa = PBXBuildFile; fileRef = 73AF193319594CD9002D6A8D /* chrono.png */; };
+		73AF193819594CD9002D6A8D /* lucca.gif in Resources */ = {isa = PBXBuildFile; fileRef = 73AF193419594CD9002D6A8D /* lucca.gif */; };
+		73AF193919594CD9002D6A8D /* magus.gif in Resources */ = {isa = PBXBuildFile; fileRef = 73AF193519594CD9002D6A8D /* magus.gif */; };
+		73AF193A19594CD9002D6A8D /* marle.png in Resources */ = {isa = PBXBuildFile; fileRef = 73AF193619594CD9002D6A8D /* marle.png */; };
+		73AF193C19594D3E002D6A8D /* cardBack.png in Resources */ = {isa = PBXBuildFile; fileRef = 73AF193B19594D3E002D6A8D /* cardBack.png */; };
+		B8F4565ED483426184747441 /* libPods-Estimote-TEST.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C7B6A334879E43798CA5AF48 /* libPods-Estimote-TEST.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +40,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3676C2C0249941358BC90037 /* Pods-Estimote-TEST.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Estimote-TEST.xcconfig"; path = "Pods/Pods-Estimote-TEST.xcconfig"; sourceTree = "<group>"; };
 		7378F34719518AF700F76B91 /* Estimote-TEST.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Estimote-TEST.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7378F34A19518AF700F76B91 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		7378F34C19518AF700F76B91 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -53,6 +60,12 @@
 		7378F37119518AF800F76B91 /* Estimote-TESTTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Estimote-TESTTests-Info.plist"; sourceTree = "<group>"; };
 		7378F37319518AF800F76B91 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		7378F37519518AF800F76B91 /* Estimote_TESTTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Estimote_TESTTests.m; sourceTree = "<group>"; };
+		73AF193319594CD9002D6A8D /* chrono.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = chrono.png; sourceTree = "<group>"; };
+		73AF193419594CD9002D6A8D /* lucca.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = lucca.gif; sourceTree = "<group>"; };
+		73AF193519594CD9002D6A8D /* magus.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = magus.gif; sourceTree = "<group>"; };
+		73AF193619594CD9002D6A8D /* marle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = marle.png; sourceTree = "<group>"; };
+		73AF193B19594D3E002D6A8D /* cardBack.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cardBack.png; sourceTree = "<group>"; };
+		C7B6A334879E43798CA5AF48 /* libPods-Estimote-TEST.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Estimote-TEST.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +76,7 @@
 				7378F34D19518AF700F76B91 /* CoreGraphics.framework in Frameworks */,
 				7378F34F19518AF700F76B91 /* UIKit.framework in Frameworks */,
 				7378F34B19518AF700F76B91 /* Foundation.framework in Frameworks */,
+				B8F4565ED483426184747441 /* libPods-Estimote-TEST.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -86,6 +100,7 @@
 				7378F36F19518AF800F76B91 /* Estimote-TESTTests */,
 				7378F34919518AF700F76B91 /* Frameworks */,
 				7378F34819518AF700F76B91 /* Products */,
+				3676C2C0249941358BC90037 /* Pods-Estimote-TEST.xcconfig */,
 			);
 			sourceTree = "<group>";
 		};
@@ -105,6 +120,7 @@
 				7378F34C19518AF700F76B91 /* CoreGraphics.framework */,
 				7378F34E19518AF700F76B91 /* UIKit.framework */,
 				7378F36919518AF800F76B91 /* XCTest.framework */,
+				C7B6A334879E43798CA5AF48 /* libPods-Estimote-TEST.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -126,6 +142,11 @@
 		7378F35119518AF800F76B91 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				73AF193B19594D3E002D6A8D /* cardBack.png */,
+				73AF193319594CD9002D6A8D /* chrono.png */,
+				73AF193419594CD9002D6A8D /* lucca.gif */,
+				73AF193519594CD9002D6A8D /* magus.gif */,
+				73AF193619594CD9002D6A8D /* marle.png */,
 				7378F35219518AF800F76B91 /* Estimote-TEST-Info.plist */,
 				7378F35319518AF800F76B91 /* InfoPlist.strings */,
 				7378F35619518AF800F76B91 /* main.m */,
@@ -159,9 +180,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7378F37919518AF800F76B91 /* Build configuration list for PBXNativeTarget "Estimote-TEST" */;
 			buildPhases = (
+				52DE8CDA66F6402F86F2B0F0 /* Check Pods Manifest.lock */,
 				7378F34319518AF700F76B91 /* Sources */,
 				7378F34419518AF700F76B91 /* Frameworks */,
 				7378F34519518AF700F76B91 /* Resources */,
+				ED10D2C67B0D4FCA88A9E0D9 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -229,9 +252,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				73AF193919594CD9002D6A8D /* magus.gif in Resources */,
 				7378F36319518AF800F76B91 /* Images.xcassets in Resources */,
+				73AF193C19594D3E002D6A8D /* cardBack.png in Resources */,
+				73AF193819594CD9002D6A8D /* lucca.gif in Resources */,
 				7378F35519518AF800F76B91 /* InfoPlist.strings in Resources */,
+				73AF193719594CD9002D6A8D /* chrono.png in Resources */,
 				7378F35E19518AF800F76B91 /* Main.storyboard in Resources */,
+				73AF193A19594CD9002D6A8D /* marle.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -244,6 +272,39 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		52DE8CDA66F6402F86F2B0F0 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		ED10D2C67B0D4FCA88A9E0D9 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-Estimote-TEST-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		7378F34319518AF700F76B91 /* Sources */ = {
@@ -374,6 +435,7 @@
 		};
 		7378F37A19518AF800F76B91 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3676C2C0249941358BC90037 /* Pods-Estimote-TEST.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -387,6 +449,7 @@
 		};
 		7378F37B19518AF800F76B91 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3676C2C0249941358BC90037 /* Pods-Estimote-TEST.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -457,6 +520,7 @@
 				7378F37B19518AF800F76B91 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7378F37C19518AF800F76B91 /* Build configuration list for PBXNativeTarget "Estimote-TESTTests" */ = {
 			isa = XCConfigurationList;
@@ -465,6 +529,7 @@
 				7378F37E19518AF800F76B91 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
