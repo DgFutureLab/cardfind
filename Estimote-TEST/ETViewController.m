@@ -30,8 +30,6 @@
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
     
-    
-    
     self.beaconManager = [[ESTBeaconManager alloc] init];
     self.beaconManager.delegate = self;
     
@@ -43,11 +41,6 @@
     self.majorArray = @[self.major1, self.major2, self.major3, self.major4];
     self.minorArray = @[self.minor1, self.minor2, self.minor3, self.minor4];
     self.distArray  = @[self.dist1, self.dist2, self.dist3, self.dist4];
-    
-    [self.existingBeacons setObject:@"-2300" forKey:@"-24162"];
-    [self.existingBeacons setObject:@"29190" forKey:@"26751"];
-    [self.existingBeacons setObject:@"14135" forKey:@"20826"];
-    [self.existingBeacons setObject:@"-29738" forKey:@"1639"];
     
     self.cardStatus = [[NSMutableArray alloc] initWithObjects:@"no", @"no", @"no", @"no", nil];
 }

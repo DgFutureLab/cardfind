@@ -26,6 +26,8 @@
 		73AF193919594CD9002D6A8D /* magus.gif in Resources */ = {isa = PBXBuildFile; fileRef = 73AF193519594CD9002D6A8D /* magus.gif */; };
 		73AF193A19594CD9002D6A8D /* marle.png in Resources */ = {isa = PBXBuildFile; fileRef = 73AF193619594CD9002D6A8D /* marle.png */; };
 		73AF193C19594D3E002D6A8D /* cardBack.png in Resources */ = {isa = PBXBuildFile; fileRef = 73AF193B19594D3E002D6A8D /* cardBack.png */; };
+		73BF5F04195BDAB1004CA72D /* ETBeaconArrayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 73BF5F03195BDAB1004CA72D /* ETBeaconArrayViewController.m */; };
+		73BF5F07195BDAC0004CA72D /* ETBeaconDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 73BF5F06195BDAC0004CA72D /* ETBeaconDetailViewController.m */; };
 		B8F4565ED483426184747441 /* libPods-Estimote-TEST.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C7B6A334879E43798CA5AF48 /* libPods-Estimote-TEST.a */; };
 /* End PBXBuildFile section */
 
@@ -65,6 +67,10 @@
 		73AF193519594CD9002D6A8D /* magus.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = magus.gif; sourceTree = "<group>"; };
 		73AF193619594CD9002D6A8D /* marle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = marle.png; sourceTree = "<group>"; };
 		73AF193B19594D3E002D6A8D /* cardBack.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cardBack.png; sourceTree = "<group>"; };
+		73BF5F02195BDAB1004CA72D /* ETBeaconArrayViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ETBeaconArrayViewController.h; sourceTree = "<group>"; };
+		73BF5F03195BDAB1004CA72D /* ETBeaconArrayViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ETBeaconArrayViewController.m; sourceTree = "<group>"; };
+		73BF5F05195BDAC0004CA72D /* ETBeaconDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ETBeaconDetailViewController.h; sourceTree = "<group>"; };
+		73BF5F06195BDAC0004CA72D /* ETBeaconDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ETBeaconDetailViewController.m; sourceTree = "<group>"; };
 		C7B6A334879E43798CA5AF48 /* libPods-Estimote-TEST.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Estimote-TEST.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -131,6 +137,10 @@
 				7378F35919518AF800F76B91 /* ETAppDelegate.h */,
 				7378F35A19518AF800F76B91 /* ETAppDelegate.m */,
 				7378F35C19518AF800F76B91 /* Main.storyboard */,
+				73BF5F02195BDAB1004CA72D /* ETBeaconArrayViewController.h */,
+				73BF5F03195BDAB1004CA72D /* ETBeaconArrayViewController.m */,
+				73BF5F05195BDAC0004CA72D /* ETBeaconDetailViewController.h */,
+				73BF5F06195BDAC0004CA72D /* ETBeaconDetailViewController.m */,
 				7378F35F19518AF800F76B91 /* ETViewController.h */,
 				7378F36019518AF800F76B91 /* ETViewController.m */,
 				7378F36219518AF800F76B91 /* Images.xcassets */,
@@ -314,6 +324,8 @@
 				7378F36119518AF800F76B91 /* ETViewController.m in Sources */,
 				7378F35719518AF800F76B91 /* main.m in Sources */,
 				7378F35B19518AF800F76B91 /* ETAppDelegate.m in Sources */,
+				73BF5F04195BDAB1004CA72D /* ETBeaconArrayViewController.m in Sources */,
+				73BF5F07195BDAC0004CA72D /* ETBeaconDetailViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

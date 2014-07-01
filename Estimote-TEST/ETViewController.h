@@ -49,8 +49,6 @@ typedef enum : int
 @property (strong, nonatomic) NSArray *distArray;
 @property (strong, nonatomic) NSMutableArray *cardStatus;
 
-@property (strong, nonatomic) NSMutableDictionary *existingBeacons;
-
 - (id)initWithScanType:(ESTScanType)scanType completion:(void (^)(ESTBeacon *))completion;
 
 @end
