@@ -7,6 +7,7 @@
 //
 
 #import "ETBeaconArrayViewController.h"
+#import "ETBeaconDetailViewController.h"
 
 @interface ETBeaconArrayViewController () <ESTBeaconManagerDelegate>
 
@@ -50,7 +51,8 @@
                             initWithObjects:@[[UIImage imageNamed:@"chrono.png"], [UIImage imageNamed:@"lucca.gif"], [UIImage imageNamed:@"marle.png"], [UIImage imageNamed:@"magus.gif"]]
                             forKeys:@[@"41374", @"26751", @"20826", @"1639"]];
     
-    
+    self.labelArray   = @[self.label1, self.label2, self.label3, self.label4];
+    self.imgViewArray = @[self.imgView1, self.imgView2, self.imgView3, self.imgView4];
 }
 
 - (void)didReceiveMemoryWarning
@@ -59,7 +61,6 @@
     // Dispose of any resources that can be recreated.
 }
 
-/*
 #pragma mark - Navigation
 
 // In a storyboard-based application, you will often want to do a little preparation before navigation
@@ -67,8 +68,31 @@
 {
     // Get the new view controller using [segue destinationViewController].
     // Pass the selected object to the new view controller.
+
+    NSLog(@"%@", segue.identifier);
+    if ([segue.destinationViewController isKindOfClass:[ETBeaconDetailViewController class]]) {
+        ETBeaconDetailViewController *targetViewController = segue.destinationViewController;
+        ESTBeacon *selectedBeacon = [[ESTBeacon alloc] init];
+        if ([segue.identifier isEqualToString:@"segue1"])
+        {
+            selectedBeacon = self.beaconsArray[0];
+        }
+        else if ([segue.identifier isEqualToString:@"segue2"])
+        {
+            selectedBeacon = self.beaconsArray[1];
+        }
+        else if ([segue.identifier isEqualToString:@"segue3"])
+        {
+            selectedBeacon = self.beaconsArray[2];
+        }
+        else if ([segue.identifier isEqualToString:@"segue4"])
+        {
+            selectedBeacon = self.beaconsArray[3];
+        }
+        
+        targetViewController.beacon = selectedBeacon;
+    }
 }
-*/
 
 - (void)beaconManager:(ESTBeaconManager *)manager didRangeBeacons:(NSArray *)beacons inRegion:(ESTBeaconRegion *)region
 {
@@ -84,18 +108,26 @@
 
 - (void)pushBeaconInfoToView
 {
-    
+    for (int i = 0; i < self.beaconsArray.count; i++) {
+        NSNumber *beaconDist = ((ESTBeacon *) self.beaconsArray[i]).distance;
+        if ((beaconDist) && (![[beaconDist stringValue] isEqualToString:@"-1"])) {
+            ((UILabel *) self.labelArray[i]).text = [NSString stringWithFormat:@"%.02f", [beaconDist floatValue]];
+        }
+        NSString *major = [((ESTBeacon *) self.beaconsArray[i]).major stringValue];
+        ((UIImageView *) self.imgViewArray[i]).image = (UIImage *) self.beaconMajorDict[major];
+    }
 }
 
-- (IBAction)hiddenButton1Pressed:(UIButton *)sender {
-}
+- (IBAction)hiddenButton1Pressed:(UIButton *)sender
+{}
 
-- (IBAction)hiddenButton2Pressed:(UIButton *)sender {
-}
+- (IBAction)hiddenButton2Pressed:(UIButton *)sender
+{}
 
-- (IBAction)hiddenButton3Pressed:(UIButton *)sender {
-}
+- (IBAction)hiddenButton3Pressed:(UIButton *)sender
+{}
 
-- (IBAction)hiddenButton4Pressed:(UIButton *)sender {
-}
+- (IBAction)hiddenButton4Pressed:(UIButton *)sender
+{}
+
 @end

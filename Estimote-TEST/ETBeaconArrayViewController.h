@@ -29,11 +29,13 @@ typedef enum : int
 @property (strong, nonatomic) IBOutlet UILabel *label2;
 @property (strong, nonatomic) IBOutlet UILabel *label3;
 @property (strong, nonatomic) IBOutlet UILabel *label4;
+@property (strong, nonatomic) NSArray *labelArray;
 
 @property (strong, nonatomic) IBOutlet UIImageView *imgView1;
 @property (strong, nonatomic) IBOutlet UIImageView *imgView2;
 @property (strong, nonatomic) IBOutlet UIImageView *imgView3;
 @property (strong, nonatomic) IBOutlet UIImageView *imgView4;
+@property (strong, nonatomic) NSArray *imgViewArray;
 
 @property (strong, nonatomic) NSDictionary *beaconMajorDict;
 
