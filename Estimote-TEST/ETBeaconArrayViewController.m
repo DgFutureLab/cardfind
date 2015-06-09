@@ -58,6 +58,7 @@
     
     self.labelArray   = @[self.label1, self.label2, self.label3, self.label4];
     self.imgViewArray = @[self.imgView1, self.imgView2, self.imgView3, self.imgView4];
+    NSLog(@"%@", self.beaconsArray);
 }
 
 - (void)didReceiveMemoryWarning

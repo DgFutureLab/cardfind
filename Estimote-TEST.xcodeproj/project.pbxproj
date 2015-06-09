@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		734F37CC1B26B8E3006BDC2F /* Armin.png in Resources */ = {isa = PBXBuildFile; fileRef = 734F37C91B26B8E3006BDC2F /* Armin.png */; };
+		734F37CD1B26B8E3006BDC2F /* Mikasa.png in Resources */ = {isa = PBXBuildFile; fileRef = 734F37CA1B26B8E3006BDC2F /* Mikasa.png */; };
+		734F37CE1B26B8E3006BDC2F /* Eren.png in Resources */ = {isa = PBXBuildFile; fileRef = 734F37CB1B26B8E3006BDC2F /* Eren.png */; };
 		7378F34B19518AF700F76B91 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7378F34A19518AF700F76B91 /* Foundation.framework */; };
 		7378F34D19518AF700F76B91 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7378F34C19518AF700F76B91 /* CoreGraphics.framework */; };
 		7378F34F19518AF700F76B91 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7378F34E19518AF700F76B91 /* UIKit.framework */; };
@@ -31,6 +34,9 @@
 		73BF5F04195BDAB1004CA72D /* ETBeaconArrayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 73BF5F03195BDAB1004CA72D /* ETBeaconArrayViewController.m */; };
 		73BF5F07195BDAC0004CA72D /* ETBeaconDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 73BF5F06195BDAC0004CA72D /* ETBeaconDetailViewController.m */; };
 		73C4D1EA19AF123B001ACAE5 /* ETMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 73C4D1E919AF123B001ACAE5 /* ETMainViewController.m */; };
+		73C69D271B26CB4C00386068 /* Annie.png in Resources */ = {isa = PBXBuildFile; fileRef = 73C69D241B26CB4C00386068 /* Annie.png */; };
+		73C69D281B26CB4C00386068 /* Reiner.png in Resources */ = {isa = PBXBuildFile; fileRef = 73C69D251B26CB4C00386068 /* Reiner.png */; };
+		73C69D291B26CB4C00386068 /* Bertolt.png in Resources */ = {isa = PBXBuildFile; fileRef = 73C69D261B26CB4C00386068 /* Bertolt.png */; };
 		B8F4565ED483426184747441 /* libPods-Estimote-TEST.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C7B6A334879E43798CA5AF48 /* libPods-Estimote-TEST.a */; };
 /* End PBXBuildFile section */
 
@@ -46,6 +52,9 @@
 
 /* Begin PBXFileReference section */
 		3676C2C0249941358BC90037 /* Pods-Estimote-TEST.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Estimote-TEST.xcconfig"; path = "Pods/Pods-Estimote-TEST.xcconfig"; sourceTree = "<group>"; };
+		734F37C91B26B8E3006BDC2F /* Armin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Armin.png; sourceTree = "<group>"; };
+		734F37CA1B26B8E3006BDC2F /* Mikasa.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Mikasa.png; sourceTree = "<group>"; };
+		734F37CB1B26B8E3006BDC2F /* Eren.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Eren.png; sourceTree = "<group>"; };
 		7378F34719518AF700F76B91 /* Estimote-TEST.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Estimote-TEST.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7378F34A19518AF700F76B91 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		7378F34C19518AF700F76B91 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -78,6 +87,9 @@
 		73BF5F06195BDAC0004CA72D /* ETBeaconDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ETBeaconDetailViewController.m; sourceTree = "<group>"; };
 		73C4D1E819AF123B001ACAE5 /* ETMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ETMainViewController.h; sourceTree = "<group>"; };
 		73C4D1E919AF123B001ACAE5 /* ETMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ETMainViewController.m; sourceTree = "<group>"; };
+		73C69D241B26CB4C00386068 /* Annie.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Annie.png; sourceTree = "<group>"; };
+		73C69D251B26CB4C00386068 /* Reiner.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Reiner.png; sourceTree = "<group>"; };
+		73C69D261B26CB4C00386068 /* Bertolt.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Bertolt.png; sourceTree = "<group>"; };
 		C7B6A334879E43798CA5AF48 /* libPods-Estimote-TEST.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Estimote-TEST.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -161,6 +173,12 @@
 		7378F35119518AF800F76B91 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				73C69D241B26CB4C00386068 /* Annie.png */,
+				73C69D251B26CB4C00386068 /* Reiner.png */,
+				73C69D261B26CB4C00386068 /* Bertolt.png */,
+				734F37C91B26B8E3006BDC2F /* Armin.png */,
+				734F37CA1B26B8E3006BDC2F /* Mikasa.png */,
+				734F37CB1B26B8E3006BDC2F /* Eren.png */,
 				73ACA2C019879FB8002FE908 /* yellowlight.png */,
 				73ACA2BE19878771002FE908 /* radargrid-cropped.png */,
 				73AF193B19594D3E002D6A8D /* cardBack.png */,
@@ -274,15 +292,21 @@
 			buildActionMask = 2147483647;
 			files = (
 				73ACA2C119879FB8002FE908 /* yellowlight.png in Resources */,
+				73C69D271B26CB4C00386068 /* Annie.png in Resources */,
 				73AF193919594CD9002D6A8D /* magus.gif in Resources */,
 				7378F36319518AF800F76B91 /* Images.xcassets in Resources */,
 				73AF193C19594D3E002D6A8D /* cardBack.png in Resources */,
+				734F37CC1B26B8E3006BDC2F /* Armin.png in Resources */,
 				73AF193819594CD9002D6A8D /* lucca.gif in Resources */,
 				7378F35519518AF800F76B91 /* InfoPlist.strings in Resources */,
+				734F37CE1B26B8E3006BDC2F /* Eren.png in Resources */,
 				73AF193719594CD9002D6A8D /* chrono.png in Resources */,
+				73C69D291B26CB4C00386068 /* Bertolt.png in Resources */,
 				73ACA2BF19878771002FE908 /* radargrid-cropped.png in Resources */,
 				7378F35E19518AF800F76B91 /* Main.storyboard in Resources */,
 				73AF193A19594CD9002D6A8D /* marle.png in Resources */,
+				73C69D281B26CB4C00386068 /* Reiner.png in Resources */,
+				734F37CD1B26B8E3006BDC2F /* Mikasa.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
