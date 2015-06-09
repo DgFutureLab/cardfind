@@ -37,7 +37,7 @@ typedef enum : int
 @property (strong, nonatomic) IBOutlet UIImageView *imgView4;
 @property (strong, nonatomic) NSArray *imgViewArray;
 
-@property (strong, nonatomic) NSDictionary *beaconMajorDict;
+@property (strong, nonatomic) NSDictionary *beaconMinorDict;
 
 - (IBAction)hiddenButton1Pressed:(UIButton *)sender;
 - (IBAction)hiddenButton2Pressed:(UIButton *)sender;
