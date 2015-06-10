@@ -328,6 +328,7 @@
                                 </state>
                                 <connections>
                                     <action selector="hiddenButton5Pressed:" destination="mDA-XX-sjN" eventType="touchUpInside" id="yQx-fX-CXc"/>
+                                    <segue destination="LjB-Hc-arj" kind="modal" identifier="buttonSegue5" id="z2X-LB-cxf"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LNm-Oj-WD1">
@@ -337,6 +338,7 @@
                                 </state>
                                 <connections>
                                     <action selector="hiddenButton6Pressed:" destination="mDA-XX-sjN" eventType="touchUpInside" id="jRd-tq-XFB"/>
+                                    <segue destination="LjB-Hc-arj" kind="modal" identifier="buttonSegue6" id="quA-gd-HtH"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -420,6 +422,6 @@
         <simulatedScreenMetrics key="destination" type="retina4"/>
     </simulatedMetricsContainer>
     <inferredMetricsTieBreakers>
-        <segue reference="r9M-4C-veD"/>
+        <segue reference="quA-gd-HtH"/>
     </inferredMetricsTieBreakers>
 </document>

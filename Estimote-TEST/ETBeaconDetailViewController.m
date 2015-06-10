@@ -46,7 +46,15 @@
     [self blinkAnimation:@"blinkAnimation" finished:YES target:self.beaconDotImageView];
 
     self.beaconMinorDict = [[NSDictionary alloc]
-                            initWithObjects:@[[UIImage imageNamed:@"chrono.png"], [UIImage imageNamed:@"lucca.gif"], [UIImage imageNamed:@"marle.png"], [UIImage imageNamed:@"magus.gif"], [UIImage imageNamed:@"chrono.png"], [UIImage imageNamed:@"magus.gif"], [UIImage imageNamed:@"magus.gif"]] forKeys:@[@"63236", @"29190", @"14135", @"1639", @"-2300", @"-29738", @"35798"]];
+                            initWithObjects:@[
+                                              [UIImage imageNamed:@"Annie.png"],
+                                              [UIImage imageNamed:@"Reiner.png"],
+                                              [UIImage imageNamed:@"Bertolt.png"],
+                                              [UIImage imageNamed:@"Armin.png"],
+                                              [UIImage imageNamed:@"Mikasa.png"],
+                                              [UIImage imageNamed:@"Eren.png"]
+                                              ]
+                            forKeys:@[@"63236", @"29190", @"14135", @"1639", @"-2300", @"-29738"]];
     self.iconImageView.image = self.beaconMinorDict[[self.beacon.minor stringValue]];
 }
 

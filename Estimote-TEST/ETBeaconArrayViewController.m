@@ -53,13 +53,18 @@
     [self.beaconManager startEstimoteBeaconsDiscoveryForRegion:self.region];
     
     self.beaconMinorDict = [[NSDictionary alloc]
-                            initWithObjects:@[[UIImage imageNamed:@"chrono.png"], [UIImage imageNamed:@"lucca.gif"], [UIImage imageNamed:@"marle.png"], [UIImage imageNamed:@"magus.gif"], [UIImage imageNamed:@"chrono.png"], [UIImage imageNamed:@"magus.gif"], [UIImage imageNamed:@"magus.gif"]]
-                            forKeys:@[@"63236", @"29190", @"14135", @"1639", @"-2300", @"-29738", @"35798"]];
+                            initWithObjects:@[
+                                              [UIImage imageNamed:@"Annie.png"],
+                                              [UIImage imageNamed:@"Reiner.png"],
+                                              [UIImage imageNamed:@"Bertolt.png"],
+                                              [UIImage imageNamed:@"Armin.png"],
+                                              [UIImage imageNamed:@"Mikasa.png"],
+                                              [UIImage imageNamed:@"Eren.png"]
+                                              ]
+                            forKeys:@[@"27908", @"29990", @"18262", @"25713", @"43072", @"9894"]];
     
-    self.labelArray   = @[self.label1, self.label2, self.label3, self.label4];
-    self.imgViewArray = @[self.imgView1, self.imgView2, self.imgView3, self.imgView4];
-    NSLog(@"TEST");
-    NSLog(@"%@", self.beaconsArray);
+    self.labelArray   = @[self.label1, self.label2, self.label3, self.label4, self.label5, self.label6];
+    self.imgViewArray = @[self.imgView1, self.imgView2, self.imgView3, self.imgView4, self.imgView5, self.imgView6];
 }
 
 - (void)didReceiveMemoryWarning
@@ -121,6 +126,10 @@
             NSString *minor = [((ESTBeacon *) self.beaconsArray[i]).minor stringValue];
             ((UIImageView *) self.imgViewArray[i]).image = (UIImage *) self.beaconMinorDict[minor];
         }
+        //ESTBeacon *beacon = self.beaconsArray[i];
+        //NSLog(@"%i", i);
+        //NSLog(@"Major: %@", [beacon.major stringValue]);
+        //NSLog(@"Minor: %@", [beacon.minor stringValue]);
     }
 }
 
@@ -140,10 +149,12 @@
 {
 }
 
-- (IBAction)hiddenButton5Pressed:(UIButton *)sender {
+- (IBAction)hiddenButton5Pressed:(UIButton *)sender
+{
 }
 
-- (IBAction)hiddenButton6Pressed:(UIButton *)sender {
+- (IBAction)hiddenButton6Pressed:(UIButton *)sender
+{
 }
 
 @end
