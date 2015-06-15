@@ -100,6 +100,14 @@
         {
             destinationVC.beacon = self.beaconsArray[3];
         }
+        else if ([segue.identifier isEqualToString:@"buttonSegue5"])
+        {
+            destinationVC.beacon = self.beaconsArray[4];
+        }
+        else if ([segue.identifier isEqualToString:@"buttonSegue6"])
+        {
+            destinationVC.beacon = self.beaconsArray[5];
+        }
     }
     [self.beaconManager stopRangingBeaconsInRegion:self.region];
 }
@@ -126,10 +134,11 @@
             NSString *minor = [((ESTBeacon *) self.beaconsArray[i]).minor stringValue];
             ((UIImageView *) self.imgViewArray[i]).image = (UIImage *) self.beaconMinorDict[minor];
         }
-        //ESTBeacon *beacon = self.beaconsArray[i];
-        //NSLog(@"%i", i);
-        //NSLog(@"Major: %@", [beacon.major stringValue]);
-        //NSLog(@"Minor: %@", [beacon.minor stringValue]);
+        ESTBeacon *beacon = self.beaconsArray[i];
+        NSLog(@"List of current beacons");
+        NSLog(@"%i", i);
+        NSLog(@"Major: %@", [beacon.major stringValue]);
+        NSLog(@"Minor: %@", [beacon.minor stringValue]);
     }
 }
 

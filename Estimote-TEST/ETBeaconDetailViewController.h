@@ -27,6 +27,9 @@
 @property (strong, nonatomic) IBOutlet UILabel *distanceLabel;
 @property (strong, nonatomic) UIImageView *beaconDotImageView;
 @property (nonatomic) BOOL beaconFlashing;
+@property (strong, nonatomic) IBOutlet UIButton *downloadButton;
+
+- (IBAction)downloadButtonPressed:(UIButton *)sender;
 
 - (IBAction)backButtonPressed:(UIButton *)sender;
 

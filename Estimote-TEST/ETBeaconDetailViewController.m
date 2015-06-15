@@ -54,7 +54,7 @@
                                               [UIImage imageNamed:@"Mikasa.png"],
                                               [UIImage imageNamed:@"Eren.png"]
                                               ]
-                            forKeys:@[@"63236", @"29190", @"14135", @"1639", @"-2300", @"-29738"]];
+                            forKeys:@[@"27908", @"29990", @"18262", @"25713", @"43072", @"9894"]];
     self.iconImageView.image = self.beaconMinorDict[[self.beacon.minor stringValue]];
 }
 
@@ -88,6 +88,9 @@
             }
             self.distanceLabel.text = [NSString stringWithFormat:@"%.02f", distanceFloatValue];
             [self.beaconDotImageView setFrame:CGRectMake((self.view.frame.size.width / 2)-25.0, distanceValueForView, 50.0, 50.0)];
+            if (distanceFloatValue < 0.20) {
+                self.downloadButton.hidden = NO;
+            }
         }
     }
 }
@@ -115,6 +118,11 @@
         [target setAlpha:1.0f];
     }
     [UIView commitAnimations];
+}
+
+- (IBAction)downloadButtonPressed:(UIButton *)sender
+{
+    //TODO
 }
 
 - (IBAction)backButtonPressed:(UIButton *)sender
