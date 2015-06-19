@@ -51,7 +51,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		3676C2C0249941358BC90037 /* Pods-Estimote-TEST.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Estimote-TEST.xcconfig"; path = "Pods/Pods-Estimote-TEST.xcconfig"; sourceTree = "<group>"; };
+		0D7ADAEDD30DD3952199D374 /* Pods-Estimote-TEST.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Estimote-TEST.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Estimote-TEST/Pods-Estimote-TEST.debug.xcconfig"; sourceTree = "<group>"; };
+		18DB9B273ACDD63A7D165346 /* Pods-Estimote-TEST.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Estimote-TEST.release.xcconfig"; path = "Pods/Target Support Files/Pods-Estimote-TEST/Pods-Estimote-TEST.release.xcconfig"; sourceTree = "<group>"; };
 		734F37C91B26B8E3006BDC2F /* Armin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Armin.png; sourceTree = "<group>"; };
 		734F37CA1B26B8E3006BDC2F /* Mikasa.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Mikasa.png; sourceTree = "<group>"; };
 		734F37CB1B26B8E3006BDC2F /* Eren.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Eren.png; sourceTree = "<group>"; };
@@ -118,6 +119,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3A77F85BC43A0FF7C77BDEA9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0D7ADAEDD30DD3952199D374 /* Pods-Estimote-TEST.debug.xcconfig */,
+				18DB9B273ACDD63A7D165346 /* Pods-Estimote-TEST.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		7378F33E19518AF700F76B91 = {
 			isa = PBXGroup;
 			children = (
@@ -125,7 +135,7 @@
 				7378F36F19518AF800F76B91 /* Estimote-TESTTests */,
 				7378F34919518AF700F76B91 /* Frameworks */,
 				7378F34819518AF700F76B91 /* Products */,
-				3676C2C0249941358BC90037 /* Pods-Estimote-TEST.xcconfig */,
+				3A77F85BC43A0FF7C77BDEA9 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -262,6 +272,9 @@
 				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = "Digital Garage";
 				TargetAttributes = {
+					7378F34619518AF700F76B91 = {
+						DevelopmentTeam = M6TJK4GHCY;
+					};
 					7378F36719518AF800F76B91 = {
 						TestTargetID = 7378F34619518AF700F76B91;
 					};
@@ -348,7 +361,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Pods-Estimote-TEST-resources.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Estimote-TEST/Pods-Estimote-TEST-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -485,10 +498,11 @@
 		};
 		7378F37A19518AF800F76B91 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3676C2C0249941358BC90037 /* Pods-Estimote-TEST.xcconfig */;
+			baseConfigurationReference = 0D7ADAEDD30DD3952199D374 /* Pods-Estimote-TEST.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Estimote-TEST/Estimote-TEST-Prefix.pch";
 				INFOPLIST_FILE = "Estimote-TEST/Estimote-TEST-Info.plist";
@@ -499,10 +513,11 @@
 		};
 		7378F37B19518AF800F76B91 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3676C2C0249941358BC90037 /* Pods-Estimote-TEST.xcconfig */;
+			baseConfigurationReference = 18DB9B273ACDD63A7D165346 /* Pods-Estimote-TEST.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Estimote-TEST/Estimote-TEST-Prefix.pch";
 				INFOPLIST_FILE = "Estimote-TEST/Estimote-TEST-Info.plist";

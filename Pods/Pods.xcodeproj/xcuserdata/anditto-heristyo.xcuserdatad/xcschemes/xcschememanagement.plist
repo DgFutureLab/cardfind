@@ -4,11 +4,6 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>Pods-Estimote-TEST-EstimoteSDK.xcscheme</key>
-		<dict>
-			<key>isShown</key>
-			<false/>
-		</dict>
 		<key>Pods-Estimote-TEST.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -17,12 +12,7 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>4304238DE10A4B328767967B</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>856A81B76E6F4545AA6154F9</key>
+		<key>5E1FB57C96F28582F5B31FCF</key>
 		<dict>
 			<key>primary</key>
 			<true/>
